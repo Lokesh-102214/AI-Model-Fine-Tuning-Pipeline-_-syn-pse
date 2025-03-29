@@ -22,24 +22,24 @@ If using Hugging Face private models, authenticate:
 ```bash
 huggingface-cli login
 ```
-##⚡ Supported Models
+## ⚡ Supported Models
 |Model| Hugging Face ID|
 |LLaMA 3.1 (8B)|	meta-llama/Llama-3.1-8B-Instruct|
 |Mistral v0.3 (7B)|	mistralai/Mistral-7B-Instruct-v0.3|
 |TinyLlama 1.1B|	TinyLlama/TinyLlama-1.1B-chat-v1.0|
 
-##🚀 Training Optimization
+## 🚀 Training Optimization
 This pipeline leverages memory-efficient techniques to optimize fine-tuning performance:
 
-✅ torch.bfloat16 → Uses mixed precision for speed.
+- ✅ torch.bfloat16 → Uses mixed precision for speed.
 
-✅ resume_download=True → Continues interrupted downloads.
+- ✅ resume_download=True → Continues interrupted downloads.
 
-✅ device_map="auto" → Automatically assigns model to the best available GPU.
+- ✅ device_map="auto" → Automatically assigns model to the best available GPU.
 
-##📜 License
+## 📜 License
 This project is licensed under the MIT License.
 
-##👨‍💻 Author
+## 👨‍💻 Author
 Developed by Team synαpse. If you have any questions, feel free to reach out!
 

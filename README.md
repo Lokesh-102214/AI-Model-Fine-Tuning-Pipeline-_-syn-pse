@@ -16,9 +16,9 @@ This repository provides an **interactive fine-tuning pipeline** for **LLaMA 3.1
 Ensure you have the necessary dependencies installed:
 ```bash
 pip install transformers datasets torch ipywidgets
-If using Hugging Face private models, authenticate:
-```
 
+```
+If using Hugging Face private models, authenticate:
 ```bash
 huggingface-cli login
 ```

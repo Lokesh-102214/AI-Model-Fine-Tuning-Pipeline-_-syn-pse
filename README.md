@@ -28,14 +28,6 @@ huggingface-cli login
 |Mistral v0.3 (7B)|	mistralai/Mistral-7B-Instruct-v0.3|
 |TinyLlama 1.1B|	TinyLlama/TinyLlama-1.1B-chat-v1.0|
 
-## 🚀 Training Optimization
-This pipeline leverages memory-efficient techniques to optimize fine-tuning performance:
-
-- ✅ torch.bfloat16 → Uses mixed precision for speed.
-
-- ✅ resume_download=True → Continues interrupted downloads.
-
-- ✅ device_map="auto" → Automatically assigns model to the best available GPU.
 
 ## 📜 License
 This project is licensed under the MIT License.

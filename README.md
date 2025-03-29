@@ -1,4 +1,5 @@
-# AI-Model-Fine-Tuning-Pipeline-_-syn-pse
+🚀 LLaMA 3.1 / Mistral / TinyLlama Fine-Tuning Pipeline
+
 This repository provides an interactive fine-tuning pipeline for LLaMA 3.1, Mistral v0.3, and TinyLlama, using Hugging Face Transformers and PyTorch. The pipeline allows users to select a model via a dropdown and fine-tune it on a dataset.
 
 📌 Features
@@ -45,4 +46,3 @@ This project is licensed under the MIT License.
 👨‍💻 Author
 
 Developed by Team synαpse. If you have any questions, feel free to reach out!
-
